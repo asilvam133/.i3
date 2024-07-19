@@ -50,6 +50,9 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 # Bluetooth control using blueman
 exec --no-startup-id blueman-applet &
 
+# Set keyboard repeat delay and rate
+exec --no-startup-id xset r rate 200 48
+
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
