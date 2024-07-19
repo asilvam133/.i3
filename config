@@ -64,11 +64,12 @@ tiling_drag modifier titlebar
 exec --no-startup-id 1password
 
 # apps
+bindsym $mod+$win+p exec --no-startup-id maim --format=png --select "/home/$USER/Pictures/screenshot-$(date -u +'%Y%m%d-%H%M%SZ')-selected.png"
+bindsym $win+a exec --no-startup-id rofi -show drun -theme ~/.config/rofi/config.rasi
 bindsym $win+f exec firefox
+bindsym $win+m exec thunderbird
 bindsym $win+p exec 1password
 bindsym $win+t exec wezterm
-bindsym $win+m exec thunderbird
-bindsym $win+a exec --no-startup-id rofi -show drun -theme ~/.config/rofi/config.rasi
 
 
 # kill focused window
