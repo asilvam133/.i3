@@ -60,6 +60,9 @@ floating_modifier $mod
 # or left-clicking anywhere into the window while holding the floating modifier.
 tiling_drag modifier titlebar
 
+# Custom apps opened at startup
+exec --no-startup-id 1password
+
 # apps
 bindsym $win+f exec firefox
 bindsym $win+p exec 1password
