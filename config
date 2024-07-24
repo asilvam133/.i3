@@ -221,6 +221,7 @@ bindsym $win+y mode "$mode_system"
 # finds out, if available)
 bar {
         status_command i3status
+        position top
 }
 
 # Decorations
