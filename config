@@ -224,7 +224,7 @@ bar {
         position top
 }
 
-# Decorations
+# Window rules
 for_window [class="1Password"] floating enable
 for_window [class="Blueman-manager"] floating enable
 for_window [class="Icloud-*"] floating enable
@@ -234,3 +234,5 @@ for_window [class="^.*"] border pixel 3
 for_window [class="calculator"] floating enable
 for_window [class="gnome-system-monitor"] floating enable
 for_window [class="org.gnome.clocks"] floating enable
+for_window [instance="Places" class="firefox"] floating enable
+for_window [window_role="alert"] floating enable
