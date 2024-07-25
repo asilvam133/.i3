@@ -229,6 +229,7 @@ for_window [class="Blueman-manager"] floating enable
 for_window [class="Icloud-*"] floating enable
 for_window [class="Nitrogen"] floating enable
 for_window [class="Nm-*"] floating enable
+for_window [class="Pavucontrol"] floating enable
 for_window [class="^.*"] border pixel 3
 for_window [class="calculator"] floating enable
 for_window [class="gnome-system-monitor"] floating enable
